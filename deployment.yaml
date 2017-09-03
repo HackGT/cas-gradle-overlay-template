@@ -1,0 +1,4 @@
+git:
+    remote: https://github.com/HackGT/cas-gradle-overlay-template.git
+    branch: master
+

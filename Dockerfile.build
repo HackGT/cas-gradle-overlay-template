@@ -1,0 +1,5 @@
+FROM openjdk
+MAINTAINER Michael Eden <themichaeleden@gmail.com>
+
+WORKDIR '/src'
+CMD ['/src/gradlew', 'clean', 'build']
