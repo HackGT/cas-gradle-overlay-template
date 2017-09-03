@@ -41,6 +41,11 @@ repositories {
 
 dependencies {
     compile "org.apereo.cas:cas-server-webapp-tomcat:${project.'cas.version'}@war"
+    compile "org.apereo.cas:cas-server-support-mongo:5.1.3"
+    compile "org.apereo.cas:cas-server-support-pac4j-webflow:5.1.3"
+    compile "org.apereo.cas:cas-server-support-mongo-ticket-registry:5.1.3"
+    compile "org.apereo.cas:cas-server-support-mongo-service-registry:5.1.3"
+    compile "org.apereo.cas:cas-server-support-json-service-registry:5.1.3"
 }
 
 task copyConfig(type: Copy) {
