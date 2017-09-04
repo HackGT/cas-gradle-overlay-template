@@ -4,3 +4,6 @@ git:
 
 target_port: 8080
 
+health:
+    path: /cas/login
+
